@@ -1,3 +1,5 @@
+<img src="./kmc_compressed_example.PNG" width=auto height=760 />
+
 ### KMeans Image Compression
 
 This script compresses images using the KMeans clustering algorithm to identify 16 major colors in the image and reduces the number of colors to those 16. It supports saving and loading compressed/uncompressed images in a custom KMC file format.
