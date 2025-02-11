@@ -1,4 +1,4 @@
-<img src="./kmc_compressed_example.PNG" width=auto height=760 />
+<img src="./kmc_compressed_example.PNG" />
 
 ### KMeans Image Compression
 
