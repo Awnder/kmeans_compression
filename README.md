@@ -52,4 +52,4 @@ The KMC file format includes:
 - The script includes a demonstration of the original and compressed images using matplotlib.
 
 ## Attributions
-- Thanks to Professor Tallman who provided the system argument logic and plotting
+- Thanks to Professor Tallman who provided the system argument logic, plotting, and his dog
