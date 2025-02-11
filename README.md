@@ -8,16 +8,23 @@ This script compresses images using the KMeans clustering algorithm to identify 
 - **Save KMC Image**: Saves a compressed image to disk in the KMC format.
 - **Load KMC Image**: Loads a compressed image from disk in the KMC format.
 
-## Prerequisites
+## Setup
+Necessary Packages:
 - Python 3.x
-- Numpy
+- numpy
 - matplotlib
 - scikit-learn
 
-Install requirements using pip:
-```bash
-pip install numpy matplotlib scikit-learn
-```
+1. **Clone the Repository**: 
+  ```bash
+  git clone https://github.com/Awnder/kmeans_compression.git
+  cd kmeans_compression
+  ```
+
+2. Install requirements using pip:
+  ```bash
+  pip install numpy matplotlib scikit-learn
+  ```
 
 ## Usage
 The script can be executed from the command line with the following options:
@@ -27,8 +34,9 @@ The script can be executed from the command line with the following options:
 
 ### Example Commands
 ```sh
-python kmeans_compression.py save example.png
-python kmeans_compression.py load example.kmc
+python kmcimage.py save example.png
+python kmcimage.py load example.kmc
+python kmcimage.py --help
 ```
 
 ## KMC File Format
@@ -42,3 +50,6 @@ The KMC file format includes:
 ## Notes
 - This is a lossy compression algorithm, meaning some image quality is sacrificed for reduced file size.
 - The script includes a demonstration of the original and compressed images using matplotlib.
+
+## Attributions
+- Thanks to Professor Tallman who provided the system argument logic and plotting
